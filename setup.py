@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'lambdata-dmhliu',         # How you named your package folder (MyLib)
-  packages = ['lambdata-dmhliu'],   # Chose the same as "name"
-  version = '0.2',      # Start with a small number and increase it with every change you make
+  name = 'lambdata_dmhliu',         # How you named your package folder (MyLib)
+  packages = ['lambdata_dmhliu'],   # Chose the same as "name"
+  version = '0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'some useful fun',   # Give a short description about your library
   author = 'daveliu',                   # Type in your name
   author_email = 'dmhliu@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/dmhliu/lambdata',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/dmhliu/lambdata/archive/v_02.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/dmhliu/lambdata/archive/v_03.tar.gz',    # I explain this later on
   keywords = [ 'data wrangling', 'preprocessing'],   # Keywords that define your package best
   install_requires=[            
           'pandas',
