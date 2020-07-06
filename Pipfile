@@ -1,12 +1,14 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://test.pypi.org"
 verify_ssl = true
 
 [dev-packages]
 twine = "*"
 
 [packages]
+setuptools = "*"
+wheel = "*"
 
 [requires]
 python_version = "3.7"

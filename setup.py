@@ -8,8 +8,8 @@ setup(
   author = 'daveliu',                   # Type in your name
   author_email = 'dmhliu@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/dmhliu/lambdata',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/dmhliu/lambdata/archive/v_03.tar.gz',    # I explain this later on
   keywords = [ 'data wrangling', 'preprocessing'],   # Keywords that define your package best
+     packages=setuptools.find_packages(),
   install_requires=[            
           'pandas',
           'numpy',
