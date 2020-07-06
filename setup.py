@@ -10,8 +10,8 @@ setup(
   url = 'https://github.com/dmhliu/lambdata',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
   keywords = [ 'data wrangling', 'preprocessing'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-          'validators',
+  install_requires=[            
+          'pandas',
           'numpy',
       ],
   classifiers=[
