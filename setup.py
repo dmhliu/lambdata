@@ -1,3 +1,4 @@
+import setuptools
 from distutils.core import setup
 setup(
   name = 'lambdata_dmhliu',         # How you named your package folder (MyLib)
@@ -9,7 +10,6 @@ setup(
   author_email = 'dmhliu@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/dmhliu/lambdata',   # Provide either the link to your github or to your website
   keywords = [ 'data wrangling', 'preprocessing'],   # Keywords that define your package best
-     packages=setuptools.find_packages(),
   install_requires=[            
           'pandas',
           'numpy',
